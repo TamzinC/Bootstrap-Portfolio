@@ -1,0 +1,20 @@
+/* MAIN */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    padding: 20px;
+}
+
+#image {
+
+    height: 50px;
+    width: 100%;
+}
