@@ -4,13 +4,25 @@
     padding: 0;
 }
 
+/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
 }
 
+/* .navbar-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+} */
+
+/* HERO */
 .jumbotron {
     padding: 20px;
+}
+
+.test {
+    height: 100px;
 }
 
 #image {
