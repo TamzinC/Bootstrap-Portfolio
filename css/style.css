@@ -1,3 +1,9 @@
+/* ROOT */
+:root {
+    --main-header-col: rgb(78, 50, 16);
+    --body-text-col: rgb(136, 91, 36);
+}
+
 /* MAIN */
 * {
     margin: 0;
@@ -10,23 +16,75 @@
     justify-content: space-between;
 }
 
-/* .navbar-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style-type: none;
-} */
+.navbar-nav {
+   flex-direction: row;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+/* Main elements */
+.btn {
+    background: rgb(128, 108, 84);
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+h3 {
+    color: var(--main-header-col);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.body-text {
+    color: var(--body-text-col);
+}
+
+.container {
+    justify-content: center;
+}
 
 /* HERO */
 .jumbotron {
-    padding: 20px;
+    margin-top: 40px;
+    padding: 100px;
+    background: rgb(230, 217, 194);
 }
 
-.test {
-    height: 100px;
+.intro {
+    align-self: center;
 }
 
 #image {
+    align-items: center;
+    height: 300px;
+    width: 320px; 
+    border-radius: 50%;
+}
 
-    height: 50px;
+/* WORK */
+.card {
+    max-height: 100%;
+}
+
+/* CONTACT */
+#contact-me {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link {
+    color: var(--body-text-col);
+}
+
+/* FOOTER */
+footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
     width: 100%;
 }

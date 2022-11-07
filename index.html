@@ -9,19 +9,19 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Fontawesome css -->
     <link rel="stylesheet" href="./css/fontawesome.css">
     <link rel="stylesheet" href="./css/fontawesome.min.css">
-    <!-- Custom css -->
-    <link rel="stylesheet" href="/Bootstrap-Portfolio/css/style.css">
+    
 </head>
 
 <body>
     <!-- Nav Bar -->
-    <header>
        <!-- <nav class="navbar fixed-top navbar-light bg-light"> -->
-            <nav class="navbar fixed-top navbar-light bg-light">
-            <ul class="navbar-nav mr-auto">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#my-work">My Work</a>
                 </li>
@@ -34,85 +34,81 @@
             </ul>
             <a class="navbar-brand" href="#">Tamzin Chikhalia</a>
         </nav>
-    </header>
 
-    <div class="test"></div>
+    
     <!-- Jumbotron (Hero)-->
-    <div class="jumbotron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid">
         <div class="row">
-            <div class="col-6">
-                <h1 class="display-4">Hey, I'm Tamzin!</h1>
-                <p class="lead">Front-end Web Developer</p>
+            <div class="intro col-lg-6 col-md-3">
+                <h1 class="display-3">Hey, I'm Tamzin!</h1>
+                <p class="lead">Front-End Web Developer</p>
                 <hr class="my-4">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>
+                <a class="btn btn-lg" href="mailto:chikhalia@hotmail.co.uk" role="button">Contact Me</a>
             </div>
-            <div class="col-2">
+            <div class="col-2 col-md-1">
                 <img id="image" src="../Bootstrap-Portfolio/images/profile-pic1.PNG">
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- My Work -->
-    <section class="my-work text-center" id="my-work">
+    <section class="my-work text-center p-4" id="my-work">
         <div class="container">
             <h3>My Work</h3>
 
             <!--Card 1 -->
             <div class="row">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/placeholder-1-halsey.jpeg" class="card-img-top" alt="Project 1 Placeholder">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mx-auto shadow p-3 mb-5 bg-white rounded">
+                        <img src="./images/placeholder-1-rihanna.jpeg" class="card-img-top" alt="Project 1 Placeholder">
                         <div class="card-body">
                             <h5 class="card-title">Project 1 Placeholder</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text body-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" target="_blank" class="btn stretched-link">View</a>
                         </div>
                     </div>
                 </div>
-            </div>
 
             <!--Card 2 -->
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mx-auto shadow p-3 mb-5 bg-white rounded">
                         <img src="./images/placeholder-4-ariana.jpeg" class="card-img-top" alt="Project 2 Placeholder">
                         <div class="card-body">
                             <h5 class="card-title">Project 2 Placeholder</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text body-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" target="_blank" class="btn stretched-link">View</a>
                         </div>
                     </div>
                 </div>
 
             <!--Card 3 -->
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/placeholder-5-blackeyepeas.jpeg" class="card-img-top"
-                            alt="Project 3 Placeholder">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mx-auto shadow p-3 mb-5 bg-white rounded">
+                        <img src="./images/placeholder-5-blackeyepeas.jpeg" class="card-img-top" alt="Project 3 Placeholder">
                         <div class="card-body">
                             <h5 class="card-title">Project 3 Placeholder</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text body-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" target="_blank" class="btn stretched-link">View</a>
                         </div>
                     </div>
                 </div>
 
             <!--Card 4 -->
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/placeholder-4-david-guetta.jpeg" class="card-img-top"
-                            alt="Project 4 Placeholder">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mx-auto shadow p-3 mb-5 bg-white rounded">
+                        <img src="./images/placeholder-4-david-guetta.jpeg" class="card-img-top" alt="Project 4 Placeholder">
                         <div class="card-body">
                             <h5 class="card-title">Project 4 Placeholder</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text body-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" target="_blank" class="btn stretched-link">View</a>
                         </div>
                     </div>
                 </div>
@@ -120,38 +116,64 @@
     </section>
 
     <!-- Skills -->
-    <section class="text-center" id="skills">
+    <section class="container text-center p-4 m-4" id="skills">
         <h3>Skills</h3>
-        <p>Fully proficient in:</p>
+        <div class="row p-4">
+            <div class="col-6 body-text">
+                <h5>Development:</h5>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Boostrap</li>
+                <li>JavaScript</li>
+            </div>
+            <div class="col-6 body-text">
+                <h5>Transferable:</h5>
+                <li>Social Media Advertising</li>
+                <li>Graphic Design</li>
+                <li>Adobe packages: Photoshop, Indesign and Illustrator</li>
+                <li>Keen eye for detail!</li>
+            </div>
+        </div>
+        <div class="row col-12 p-4 text-center">
+            <p class="body-text">With all these skills combined I hope to be able to design and develop fully working and responsive applications!</p>
+        </div>
+
+        <!-- <p>Fully proficient in:</p>
         <li>HTML</li>
         <li>CSS</li>
         <li>Boostrap</li>
         <li>JavaScript</li>
+        <li></li>
         <p>With these skills combined I hope to be able to design and develop fully working and responsive applications!</p>
-    </section>
+    </section> -->
 
     <!-- About / Contact Me -->
-    <section class="container text-center" id="contact-me">
+    <section class="container text-center p-4" id="contact-me">
         <div class="row">
             <div class="col-6">
                 <h3>About Me</h3>
+                <p class="body-text">Coming from a Marketing background, I have experience in a variety of different aspects ranging from graphic design, marketing strategy and paid social advertising, as well as E-Commerce which involves daily management of a live website. I'm now looking to broaden my career by moving into web development.</p>
             </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <h3>Contact Me</h3>
-                <i class="fal fa-envelope"></i>
-                <a href="chikhalia@hotmail.co.uk">Email</a>
-                <i class="fab fa-linkedin-in"></i>
-                <a href="https://linkedin.com/in/tamzin-chikhalia-44a59a188">LinkedIn</a>
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/TamzinC">GitHub</a>
+                <ul>
+                    <i class="fal fa-envelope"></i>
+                    <a class="contact-link" href="mailto:chikhalia@hotmail.co.uk" target="_blank">Email</a>
+                </ul>
+                <ul>
+                    <i class="fab fa-linkedin-in"></i>
+                    <a class="contact-link" href="https://linkedin.com/in/tamzin-chikhalia-44a59a188" target="_blank" >LinkedIn</a>
+                </ul>
+                <ul>
+                    <i class="fab fa-github"></i>
+                    <a class="contact-link" href="https://github.com/TamzinC" target="_blank">GitHub</a>
+                </ul>
             </div>
         </div>
     </section>
 </body>
 
-<footer class="navbar-light bg-light text-center">
+<footer class="footer navbar-light bg-light text-center p-4">
     <p>&copy Tamzin Chikhalia 2022</p>
 </footer>
 
