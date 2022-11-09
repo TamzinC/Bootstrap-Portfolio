@@ -24,7 +24,7 @@
     padding: 10px;
 }
 
-/* Main elements */
+/* MAIN ELEMENTS USED IN BODY */
 .btn {
     background: rgb(128, 108, 84);
     color: #fff;
@@ -75,7 +75,7 @@ main {
     margin-right: auto;
 }
 
-/* WORK */
+/* WORK SECTION */
 .card {
     max-height: 100%;
 }
@@ -84,7 +84,7 @@ main {
     color: var(--main-header-col);
 }
 
-/* SKILLS */
+/* SKILLS SECTION */
 .skills-card {
     display: flex;
     justify-content: space-around;
@@ -96,8 +96,7 @@ main {
     color: var(--body-text-col);
 }
 
-/* CONTACT */
-
+/* CONTACT SECTION */
 .contact {
     display: flex;
     flex-direction: row;
@@ -117,4 +116,8 @@ main {
 /* FOOTER */
 footer {
     width: 100%;
+}
+
+@media {
+    max-width: 768px;
 }
